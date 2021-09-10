@@ -13,9 +13,9 @@
 
 <body>
     <header>
-        <div class="container-fluid ">
+        <div class="container-fluid " id="head">
             <nav class=" navbar navbar-expand-lg navbar-light p-0 ">
-                <a class="navbar-brand" href="index.html"><img src="resources/img/Icon.png" alt="logo"></a>
+                <a class="navbar-brand" href="#head"><img src="resources/img/Icon.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,11 +28,11 @@
                             <a class="nav-link" href="products.html">PRODUCTS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT</a>
+                            <a class="nav-link" href="#contact-id">CONTACT</a>
                         </li>
                         <li class="nav-item img-link">
                             <a class="nav-link 
-                            " href="#"><img src="resources/img/shopping-cart.svg" alt="">
+                            " href="order.html"><img src="resources/img/shopping-cart.svg" alt="">
                                 <img class="cart-hover" src="resources/img/shopping-cart (1).svg" alt=""></a>
                         </li>
                     </ul>
@@ -79,7 +79,7 @@
         <div class="row p-0 m-0">
             <div class="col-md-3 col-sm-6 px-1">
                 <img src="resources/img/2.jpg" alt="">
-                <a onclick="filterSelection('hand-cream')" href="products.html">
+                <a href="#">
                     <div class="hover-overlay">
                         <img src="resources/img/overlay-1.png" alt="">
                         <p>Hand Cream</p>
@@ -88,7 +88,7 @@
             </div>
             <div class="col-md-3 col-sm-6 px-1">
                 <img src="resources/img/2.jpg" alt="">
-                <a href="products.html?hand-soap" onclick="filterSelection('hand-soap')">
+                <a href="#">
                     <div class="hover-overlay">
                         <img src="resources/img/overlay-1.png" alt="">
                         <p>Hand Soap</p>
@@ -300,7 +300,7 @@
         </div>
     </section>
 
-    <section class="contact-section">
+    <section class="contact-section" id="contact-id">
         <h2 class="text-uppercase text-center my-0">get in touch</h2>
         <div class="container-fluid">
             <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure maxime minus cumque iusto assumenda excepturi veniam sint laborum quis veritatis.</p>
@@ -345,7 +345,7 @@
                             <li><a href="index.html">Home</a></li>
                             <li><a href="about.html">About Us</a></li>
                             <li><a href="products.html">products</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#contact-id">Contact</a></li>
                         </ul>
                     </nav>
                     <div class="foo-social">

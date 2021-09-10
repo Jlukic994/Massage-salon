@@ -32,9 +32,11 @@ a {
     box-shadow: none !important;
 }
 
-body {
+body,
+html {
     font-size: 20px;
     overflow-x: hidden;
+    scroll-behavior: smooth !important;
 }
 
 .container-fluid {
@@ -571,20 +573,24 @@ h6 {
 
 /*=====================contact section====================== */
 
-.contact-section {
+.contact-section,
+.order {
     background-color: #fff9f8;
     padding-bottom: 60px;
 }
 
-.contact-section h2 {
+.contact-section h2,
+.order h2 {
     padding: 40px 0;
 }
 
-.contact-section p {
+.contact-section p,
+.order p {
     padding-bottom: 40px;
 }
 
-.contact-section address {
+.contact-section address,
+.order address {
     color: #888;
     font-size: 14px;
     font-weight: 400;
@@ -593,7 +599,8 @@ h6 {
     padding-bottom: 40px;
 }
 
-.contact-section address img {
+.contact-section address img,
+.order address img {
     display: block;
     position: absolute;
     left: 0;
@@ -602,13 +609,15 @@ h6 {
     width: 50px;
 }
 
-.contact-section address a {
+.contact-section address a,
+.order address a {
     color: #888;
     transition: color 0.5s ease;
     text-decoration: none;
 }
 
-.contact-section address a:hover {
+.contact-section address a:hover,
+.order address a:hover {
     color: #ff817e;
 }
 
@@ -617,7 +626,9 @@ h6 {
 }
 
 .contact-section .contact-form input,
-.contact .contact-form textarea {
+.contact .contact-form textarea,
+.order .contact-form input,
+.order .contact-form textarea {
     border: 1px solid #e3e6ea;
     display: block;
     padding: 10px 20px;
@@ -634,7 +645,8 @@ h6 {
     width: 100%;
 }
 
-.contact-section .col-md-7 .contact-form .submit-btn {
+.contact-section .col-md-7 .contact-form .submit-btn,
+.order .col-md-7 .contact-form .submit-btn {
     border: none;
     border-radius: 0;
     font-size: 110%;
@@ -644,13 +656,15 @@ h6 {
     transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
 }
 
-.contact-section .col-md-7 .contact-form .submit-btn {
+.contact-section .col-md-7 .contact-form .submit-btn,
+.order .col-md-7 .contact-form .submit-btn {
     background-color: #ff817e;
     color: #fff;
     border-radius: 30px;
 }
 
-.contact-section .col-md-7 .contact-form .submit-btn:hover {
+.contact-section .col-md-7 .contact-form .submit-btn:hover,
+.order .col-md-7 .contact-form .submit-btn:hover {
     color: #ff817e !important;
     background-color: #30383b !important;
 }
@@ -1022,3 +1036,6 @@ h6 {
     background-color: #666;
     color: white;
 }
+
+
+/* =============Order page================ */
